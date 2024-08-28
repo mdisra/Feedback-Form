@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+</head>
+<body>
+    <h2>Feedback form</form></h2>
+    <table border="3">
+        <tr>
+            <td>
+                <form name="f1" method="post" onsubmit="">
+                    <table >
+                        
+                        
+                        <tr>
+                            <td>NAME</td>
+                            <td><input type="text" size="30" name="Name"/> </td>
+                        </tr>
+                        <tr>
+                            <td>EMAIL ID</td>
+                            <td><input type="text" size="30" name="Email"/> </td>
+                        </tr>
+                        <tr>
+                            <td>PHONE NO.</td>
+                            <td><input type="text" size="30" name="Phone"/> </td>
+                        </tr>
+                        <tr>
+                            <td>GENDER</td>
+                            <td><input type="radio" name="GENDER" value="M"/>MALE
+                                <input type="radio" name="GENDER" value="F"/>FEMALE </td>
+                        </tr>
+
+                        <tr><td>
+                            <label for="date of birth">DATE OF BIRTH :</label>
+                         <input type="date" id="birthday" name="">
+                         </td>
+                        </tr>
+                        <tr>
+                            <td>WORKING CONDITION</td>
+                            <td>
+                                <input type="checkbox" value="good" name="cond"/>GOOD
+                                <input type="checkbox" value="fair" name="cond"/>FAIR
+                                 <input type="checkbox" value="worst" name="cond"/>WORST
+                                 <input type="checkbox" value="not usefull" name="cond"/>NOT USEFULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>SELECT SOFTWARE</td>
+                            <td>
+                                <input type="radio" name="python" value="python"/>PYTHON
+                                <input type="radio" name="hadoop" value="hadoop"/>HADOOP
+                                <input type="radio" name="bigdata" value="bigdata"/>BIGDATA
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>COMMENTS</td>
+                            <td>
+                                <textarea name="comments" cols="25" rows="5"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ADDRESS</td>
+                            <td>
+                                <textarea name="add" cols="25" rows="5"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="SUBMIT"/>
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                <input type="reset" value="reset"/>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
